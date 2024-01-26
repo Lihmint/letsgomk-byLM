@@ -1,0 +1,106 @@
+
+
+.container-street {
+    padding-top: 80px;
+    max-width: 1024;
+    min-height: fit-content;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .street-bio {
+    margin: auto;
+    padding: 40px 60px 40px 60px;
+  }
+  
+  
+  .street-bio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+  
+  
+  
+  .helmet-gomk {
+    justify-content: center;
+    min-height: auto;
+    width: 30%;
+  }
+  
+  
+  .announcement {
+    max-width: 1024;
+    padding-bottom: 40px;
+  }
+  
+  
+  .megaphone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  
+  
+  .megaphone-art {
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+    flex:1;
+  } 
+  
+  .megaphone h2 {
+      text-align: start;
+      padding-right: 80px;
+      flex: 2;
+  }
+
+
+
+  .flags {
+      /* width: 16%;
+    min-height: auto; */
+      width: 280px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  
+  .streetcred {
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-bottom: 40px;
+  }
+
+
+  /* mobile view */
+  @media (max-width: 480px) {
+
+    .container-street { display: block; }
+    .megaphone { display: block; 
+        margin-left: auto;
+        margin-right: auto;} 
+
+    .megaphone-art  {
+        justify-content: center;
+        padding-left: 60px;
+        padding-bottom: 40px;} 
+
+
+    .megaphone h2 {padding:10px;
+        text-align: center;}
+    .streetcred {
+        margin: 0px 0px 20px;
+        padding: 0px 30px;}
+    .street-bio {
+        margin: 0px 0px 20px;
+        padding: 0px 30px;}
+
+        }
+  }

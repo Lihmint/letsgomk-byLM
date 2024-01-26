@@ -1,0 +1,84 @@
+
+
+/* body {
+    background-image: url(images-gomk/contact-gomk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+} */
+
+
+/* .container-fluid {
+    margin: 0;
+    padding: 0
+background-image: url(images-gomk/contact-gomk.jpg);
+background-size: cover;
+background-color: brown;
+min-height: 1000px;
+width: auto;
+} */
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0
+} 
+
+.contactart {
+    min-height: 1080px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding-top: 152px;
+    text-align: center;
+}
+
+
+.fillform {
+    width: 600px;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .input-name {
+display: flex;
+flex: row;
+margin-bottom: 30px; 
+} */
+
+
+input [type=text], 
+input [type=email], 
+textarea {
+    padding: 12px 20px;
+    width 40%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+label {
+    display: block;
+}
+
+
+textarea {
+    padding: 12px 20px;
+    width 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    display: block;
+}

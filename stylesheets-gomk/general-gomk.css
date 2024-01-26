@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  padding: 0
+  }
+
+  p {
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+
+  p {
+    font-size: 0.95em;
+    color: rgb(185, 177, 177);
+    text-align: center;
+    line-height: 1.8;
+    padding-bottom: 20px;
+  }
+
+
+/*.hp-copy {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 0.875em;color: rgb(36, 34, 34);
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  max-width: 1000px;
+  min-width: 300px;
+  margin:48px 48px;
+}*/
+
+
+
+/*.herobox1 {
+  display: block;
+  object-fit: cover;
+  object-position: relative;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+
+.home-bolt {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+

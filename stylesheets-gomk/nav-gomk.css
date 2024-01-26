@@ -1,0 +1,48 @@
+/*nav{
+    float: right;
+    display: flex;
+    position: fix;
+    z-index: 100;
+}*/
+
+/*body{
+    position: relative;
+    position: relative;
+}*/
+
+nav {
+    position: fixed;
+    top:0;
+    right:0;
+    z-index:10;
+}
+
+
+.header {
+    max-width: 120;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 11px 10px;
+}
+
+
+
+.navbutton {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.86em;
+    color:black;
+    padding: 11px 18px;
+    text-decoration: none ;
+}
+
+
+.navbutton-1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.86em;
+    color:rgb(145, 5, 5);
+    padding: 11px 18px;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+}
